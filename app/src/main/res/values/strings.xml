@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">EyeBrowser</string>
+    <string name="app_name">Eye Browser</string>
+    <string name="urlHead">https://www.</string>
+    <string name="urlHint">Url</string>
 </resources>

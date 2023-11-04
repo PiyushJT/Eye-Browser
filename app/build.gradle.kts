@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.piyushjt.projects.eyebrowser"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.piyushjt.projects.eyebrowser"
@@ -25,6 +25,9 @@ android {
                 "proguard-rules.pro"
             )
         }
+    }
+    buildFeatures{
+        viewBinding = true
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
